@@ -26,7 +26,7 @@ document.getElementById("askBtn").addEventListener("click", () => {
 
 
 async function fetchAIResponse(userMessage) {
-  const API_KEY = "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"; // Replace this
+  const API_KEY = "Replace with your own OPEN ROUTER API KEY"; // Replace this
 
   const body = {
     model: "anthropic/claude-3-haiku", // or try claude-3-opus or sonnet
